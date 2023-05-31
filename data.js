@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     title: "The Power of Positive Thinking",
     subTitle: "Harnessing the mindset for success",

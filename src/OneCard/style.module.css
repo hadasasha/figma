@@ -1,0 +1,102 @@
+
+.card{
+    width: 24%;
+    
+
+}
+
+.card>img{
+    
+position: absolute;
+width: 100%;
+height: 60%;
+left: 200px;
+top: 157px;
+
+background: url(), #C4C4C4;
+border-radius: 5px;
+}
+
+.date{
+    position: absolute;
+width: 59px;
+height: 15px;
+left: 200px;
+top: 452px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #6C757D;
+
+}
+
+.category{
+    width: 42px;
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.card>h2{
+    position: absolute;
+width: 243px;
+height: 50px;
+left: 200px;
+top: 482px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+
+
+color: #495057;
+
+}
+
+.card>p{
+    
+position: absolute;
+width: 310px;
+height: 60px;
+left: 200px;
+top: 547px;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+
+color: #6C757D;
+
+}

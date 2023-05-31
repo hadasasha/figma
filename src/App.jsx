@@ -1,17 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import OneCard from './OneCard/OneCard'
+import Layout from './Lyout'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <OneCard/>
-    </>
-  )
+  return <>
+   <Layout/>
+  </>
 }
 
 export default App
